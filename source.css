@@ -1,0 +1,79 @@
+.container {
+  background-color: rgb(30, 30, 40);
+  display: block;
+  font-weight: 400;
+  height: 1200px;
+  line-height: 22.1px;
+  width: 800px;
+  border-radius: 5px;
+  position: fixed;
+  font-size: 40px;
+  color: rgb(66, 52, 52);
+}
+.info {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: papayawhip;
+  background-origin: padding-box;
+  box-shadow: rgba(15, 15, 20, 0.2) 0px 3px 8px 0px;
+  box-sizing: border-box;
+  color: rgb(140, 140, 142);
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: 1200px;
+  line-height: 22.1px;
+  min-width: 290px;
+  padding: 10px;
+  position: fixed;
+  text-align: left;
+  width: 290px;
+}
+.photo {
+  border-radius: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50%;
+}
+.education {
+  background-color: tomato;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 950px;
+  left: 320px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+h3 {
+  margin-top: 40px;
+}
+.card {
+  width: 90%;
+  font-size: 12px;
+  margin-left: 10px;
+  background-color: thistle;
+  border-radius: 5px;
+  display: block;
+}
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.course-description {
+  padding: 5px;
+  margin: 10px;
+}
+strong {
+  margin-left: 5px;
+}
+h4 {
+  text-align: center;
+  margin-top: 5px;
+}
